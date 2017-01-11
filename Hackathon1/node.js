@@ -5,7 +5,7 @@ var http = require('http'),
 // Request Handler to handle the Requests
 var requestHandler=(req,res)=>{
   if(req.url==="/file1"){
-    fs.readFile("./file1.json",(error,data)=>{
+    fs.readFile("./includes/json/file1.json",(error,data)=>{
       if(error){
         res.write("File Not Found");
       }
@@ -25,7 +25,7 @@ var requestHandler=(req,res)=>{
   }
 
   if(req.url==="/file2"){
-    fs.readFile("./file2.json",(error,data)=>{
+    fs.readFile("./includes/json/file2.json",(error,data)=>{
       if(error){
         res.write("File Not Found");
       }
