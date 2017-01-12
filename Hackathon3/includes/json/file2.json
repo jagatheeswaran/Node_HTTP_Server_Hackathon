@@ -1,0 +1,20 @@
+{
+  "user": [
+    {
+      "name": "kowsik",
+      "profession": "teacher",
+      "id": 1,
+      "age": 22
+    },
+    {
+      "name": "satha",
+      "profession": "librarian",
+      "id": 2
+    },
+    {
+      "name": "siva",
+      "profession": "clerk",
+      "id": 3
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 let firstapi = require('./includes/apis/firstapi.js');
-let seconapi = require('./includes/apis/secondapi.js');
+let secondapi = require('./includes/apis/secondapi.js');
 
 function error(response) {
     response.writeHead(404, {
@@ -15,7 +15,7 @@ function requestHandler(request, response) {
     if (request.url === "/first") {
         firstapi.sendResponse(request, response);
     } else if (request.url === "/second") {
-        seconapi.sendResponse(request, response);
+        secondapi.sendResponse(request, response);
     } else if (request.method == 'POST' && request.url == '/third') {
         var f1 = {},
             f2 = {};
