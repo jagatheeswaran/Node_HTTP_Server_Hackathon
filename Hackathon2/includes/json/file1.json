@@ -1,8 +1,4 @@
 {
-    "name": "mahesh",
-    "profession": "teacher"
-}
-{
-	"name":"kowsik",
-	"age":23
+        "name": "mahesh",
+        "profession": "teacher",
 }
